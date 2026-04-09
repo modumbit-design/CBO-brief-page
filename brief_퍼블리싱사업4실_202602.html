@@ -75,6 +75,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
 .proj-status{font-size:10px}
 .proj-title{font-size:15px;font-weight:700;letter-spacing:-0.3px}
 .proj-spark-row{display:flex;align-items:center;gap:8px;margin-top:12px;padding-top:12px;border-top:1px solid #E5E8EB;justify-content:flex-end}
+.proj-spark-minmax{font-size:9px;color:#B0B8C1;font-weight:500;font-variant-numeric:tabular-nums;letter-spacing:-0.1px}
 .proj-spark-label{font-size:11px;color:#8B95A1;font-weight:600}
 .proj-spark-svg{display:flex;align-items:center}
 /* BIG CHART (카드2 상단) */
@@ -182,12 +183,12 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
       <div class="slide">
         <div class="card">
           <div class="card-label">CARD 1 · 총지출</div>
-          <div class="card-title">이번 달 우리 실이 쓴 돈</div>
+          <div class="card-title">이번달 우리 실 지출액</div>
           <div class="hero">
             <div class="hero-label">총 지출액 (마케팅비 포함)</div>
             <div class="hero-num">7.7억</div>
             <div class="hero-delta" style="color:#00C471">전월 대비 -2.2억</div>
-            <div class="hero-breakdown">시트 5.0억 + 타부서 마케팅비 2.7억</div>
+            
           </div>
           <div style="font-size:13px;color:#8B95A1;font-weight:600;margin-bottom:12px">부서 직접 비용 · 2.3억</div>
           
@@ -383,6 +384,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
               </div>
               <div class="proj-spark-row">
                 <span class="proj-spark-label">영업이익 6개월</span>
+                <span class="proj-spark-minmax">최고 71억 · 최저 5.2억</span>
                 <span class="proj-spark-svg"><svg width="110" height="36" viewBox="0 0 110 36" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <path d="M 2.0,31.4 L 23.2,3.0 L 44.4,23.6 L 65.6,33.0 L 86.8,32.5 L 108.0,29.7 L 108.0,33 L 2.0,33 Z" fill="#F04452" fill-opacity="0.10" stroke="none"/>
 <path d="M 2.0,31.4 L 23.2,3.0 L 44.4,23.6 L 65.6,33.0 L 86.8,32.5 L 108.0,29.7" fill="none" stroke="#F04452" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -415,6 +417,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
               </div>
               <div class="proj-spark-row">
                 <span class="proj-spark-label">영업이익 6개월</span>
+                <span class="proj-spark-minmax">최고 6.4억 · 최저 -2.3억</span>
                 <span class="proj-spark-svg"><svg width="110" height="36" viewBox="0 0 110 36" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <path d="M 2.0,10.2 L 23.2,11.1 L 44.4,33.0 L 65.6,3.0 L 86.8,11.8 L 108.0,16.0 L 108.0,33 L 2.0,33 Z" fill="#00C471" fill-opacity="0.10" stroke="none"/>
 <path d="M 2.0,10.2 L 23.2,11.1 L 44.4,33.0 L 65.6,3.0 L 86.8,11.8 L 108.0,16.0" fill="none" stroke="#00C471" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -447,6 +450,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
               </div>
               <div class="proj-spark-row">
                 <span class="proj-spark-label">영업이익 6개월</span>
+                <span class="proj-spark-minmax">최고 6,649만 · 최저 -7,431만</span>
                 <span class="proj-spark-svg"><svg width="110" height="36" viewBox="0 0 110 36" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <path d="M 2.0,28.5 L 23.2,33.0 L 44.4,4.6 L 65.6,3.0 L 86.8,12.7 L 108.0,32.2 L 108.0,33 L 2.0,33 Z" fill="#00C471" fill-opacity="0.10" stroke="none"/>
 <path d="M 2.0,28.5 L 23.2,33.0 L 44.4,4.6 L 65.6,3.0 L 86.8,12.7 L 108.0,32.2" fill="none" stroke="#00C471" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -479,6 +483,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
               </div>
               <div class="proj-spark-row">
                 <span class="proj-spark-label">영업이익 6개월</span>
+                <span class="proj-spark-minmax">최고 1.1억 · 최저 4,849만</span>
                 <span class="proj-spark-svg"><svg width="110" height="36" viewBox="0 0 110 36" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <path d="M 2.0,3.0 L 23.2,15.4 L 44.4,33.0 L 65.6,7.8 L 86.8,19.0 L 108.0,17.8 L 108.0,33 L 2.0,33 Z" fill="#B0B8C1" fill-opacity="0.10" stroke="none"/>
 <path d="M 2.0,3.0 L 23.2,15.4 L 44.4,33.0 L 65.6,7.8 L 86.8,19.0 L 108.0,17.8" fill="none" stroke="#B0B8C1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -511,6 +516,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
               </div>
               <div class="proj-spark-row">
                 <span class="proj-spark-label">영업이익 6개월</span>
+                <span class="proj-spark-minmax">최고 -6,208만 · 최저 -5.3억</span>
                 <span class="proj-spark-svg"><svg width="110" height="36" viewBox="0 0 110 36" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <path d="M 2.0,5.2 L 23.2,3.7 L 44.4,4.3 L 65.6,4.0 L 86.8,33.0 L 108.0,3.0 L 108.0,33 L 2.0,33 Z" fill="#F04452" fill-opacity="0.10" stroke="none"/>
 <path d="M 2.0,5.2 L 23.2,3.7 L 44.4,4.3 L 65.6,4.0 L 86.8,33.0 L 108.0,3.0" fill="none" stroke="#F04452" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -543,6 +549,7 @@ body{font-family:'Pretendard',system-ui,-apple-system,sans-serif;background:#F2F
               </div>
               <div class="proj-spark-row">
                 <span class="proj-spark-label">영업이익 6개월</span>
+                <span class="proj-spark-minmax">최고 -1.7억 · 최저 -4.2억</span>
                 <span class="proj-spark-svg"><svg width="110" height="36" viewBox="0 0 110 36" xmlns="http://www.w3.org/2000/svg" style="display:block">
 <path d="M 2.0,5.1 L 23.2,3.0 L 44.4,5.1 L 65.6,19.1 L 86.8,33.0 L 108.0,30.9 L 108.0,33 L 2.0,33 Z" fill="#F04452" fill-opacity="0.10" stroke="none"/>
 <path d="M 2.0,5.1 L 23.2,3.0 L 44.4,5.1 L 65.6,19.1 L 86.8,33.0 L 108.0,30.9" fill="none" stroke="#F04452" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
